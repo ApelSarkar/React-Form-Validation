@@ -1,0 +1,35 @@
+/* formStyles.css */
+
+/* Form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Input container */
+.input-container {
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+}
+
+/* Error messages */
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
